@@ -17,7 +17,6 @@ const {WebSiteManagementClient} = require('azure-arm-website');
 const alcollector = require('@alertlogic/al-collector-js');
 
 const m_util = require('./util');
-const fileTokenCache = require('./util/fileTokenCache');
 const AzureWebAppStats = require('./appstats').AzureWebAppStats;
 const AzureCollectionStats = require('./appstats').AzureCollectionStats;
 const AlAzureDlBlob = require('./dlblob').AlAzureDlBlob;
